@@ -40,7 +40,9 @@ rect = Rect(0, 0, 80, 40, fill=0x00FF00)
 circle = Circle(100, 100, 20, fill=0x00FF00, outline=0xFF00FF)
 triangle = Triangle(170, 50, 120, 140, 210, 160, fill=0x00FF00, outline=0xFF00FF)
 roundrect = RoundRect(50, 100, 40, 80, 10, fill=0x0, outline=0xFF00FF, stroke=3)
-my_label = label.Label(terminalio.FONT, text="My Label Text", color=(255,0,0))
+my_label = label.Label(terminalio.FONT, text="My Label Text", color=(255,255,255), scale=2)
+my_label.x = 50
+my_label.y = 200
 screen.append(rect)
 screen.append(circle)
 screen.append(triangle)
