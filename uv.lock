@@ -139,6 +139,19 @@ wheels = [
 ]
 
 [[package]]
+name = "adafruit-circuitpython-imageload"
+version = "1.24.8"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "adafruit-blinka" },
+    { name = "adafruit-blinka-displayio" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/b4/67/a17f8c2b724616bcc038fcc6bf645081cc8a3cc5b8498f22f823db2e09b8/adafruit_circuitpython_imageload-1.24.8.tar.gz", hash = "sha256:64112d916363740615a5ac5570e98df303b9bf4a9114231b3fc4a0e14a6c9cb0", size = 96743, upload-time = "2026-05-27T17:41:25.01Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/d3/da/b67b44b7af8fd2a1a019154c4353c3a0f654f38ec093a0fe4b24af93e2fb/adafruit_circuitpython_imageload-1.24.8-py3-none-any.whl", hash = "sha256:b67f873e13f1fe03895072d0aae50e83a263e64bc40b0eddb988d59042928a6d", size = 28341, upload-time = "2026-05-27T17:41:23.763Z" },
+]
+
+[[package]]
 name = "adafruit-circuitpython-motor"
 version = "3.4.18"
 source = { registry = "https://pypi.org/simple" }
@@ -285,6 +298,7 @@ dependencies = [
     { name = "adafruit-circuitpython-display-text" },
     { name = "adafruit-circuitpython-dotstar" },
     { name = "adafruit-circuitpython-httpserver" },
+    { name = "adafruit-circuitpython-imageload" },
     { name = "adafruit-circuitpython-motor" },
     { name = "adafruit-circuitpython-rgb-display" },
     { name = "adafruit-circuitpython-st7789" },
@@ -300,6 +314,7 @@ requires-dist = [
     { name = "adafruit-circuitpython-display-text", specifier = ">=4.0.2" },
     { name = "adafruit-circuitpython-dotstar", specifier = ">=2.2.19" },
     { name = "adafruit-circuitpython-httpserver", specifier = ">=4.7.1" },
+    { name = "adafruit-circuitpython-imageload", specifier = ">=1.24.8" },
     { name = "adafruit-circuitpython-motor", specifier = ">=3.4.18" },
     { name = "adafruit-circuitpython-rgb-display", specifier = ">=3.14.3" },
     { name = "adafruit-circuitpython-st7789", specifier = ">=2.1.3" },

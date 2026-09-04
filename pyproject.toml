@@ -14,6 +14,7 @@ dependencies = [
     "adafruit-circuitpython-display-text>=4.0.2",
     "adafruit-circuitpython-dotstar>=2.2.19",
     "adafruit-circuitpython-httpserver>=4.7.1",
+    "adafruit-circuitpython-imageload>=1.24.8",
     "adafruit-circuitpython-motor>=3.4.18",
     "adafruit-circuitpython-rgb-display>=3.14.3",
     "adafruit-circuitpython-st7789>=2.1.3",
