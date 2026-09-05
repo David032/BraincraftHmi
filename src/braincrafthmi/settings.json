@@ -1,0 +1,5 @@
+{
+    "Audio_Destination" : "url",
+    "Audio_Destination_URL" : "http://localhost:5000/audio_input",
+    "Audio_Input_Device" : 2
+}
